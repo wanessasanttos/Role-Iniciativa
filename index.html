@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Role Iniciativa</title>
+    <link rel="icon" type="image/x-icon" href="./Aba-Icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css" media ="all">
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--ABA -->
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <!-- MENU-->
+        <header class="primary-header">
+            <img class="logo" src="./LogoSemBackground.png" alt="" width="180" height="76"><!-- LOGO-->
+            <button class="nav-open" id="open-btn" aria-labelledby="open-nav-label" aria-expanded="false">
+                <img src="./icone-menu.png" alt="" width="40" height="17">
+                <span id="open-nav-label" hidden>open navigation menu</span>
+            </button>
+    
+            <nav class="primary-navigation">
+                <div class="nav-menu">
+                    <button class="nav-close" id="close-btn" aria-labelledby="close-nav-label">
+                        <img src="./icone-menu-fecha.png" alt="" width="32" height="31">
+                        <span id="close-nav-label" hidden>close navigation menu</span>
+                    </button>
+                    <ul class="nav-list" id="nav0"><!-- LISTA DE NAVEGAÇÃO-->
+                        <li id = "nav1"><a>Home</a></li>
+                        <li id = "nav1"><a>Rpg <i class="fas fa-caret-down"></i></a>
+    
+                            <div class="dropdown-menu">
+                                <ul><!-- ADICIONAR OUTRO RPG AQUI COMO UM <LI> DENTRO DESSE <UL>-->
+                                  <li id = "nav2">
+                                    <a>D&D5E <i class="fas fa-caret-right"></i></a>
+                                    
+                                    <div class="dropdown-menu-1">
+                                      <ul><!-- ADICIONAR NOVAS FUNÇÕES A UM RPG AQUI COMO UM <LI> DENTRO DESSE <UL>-->
+                                        <li id = "nav3"><a  >Criar Ficha</a></li>
+                                        <li id = "nav3"><a  >Criar Batalha</a></li>
+                                        <div class="arrow-down"></div>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                  <li id = "nav2">
+                                    <a>D&D5E <i class="fas fa-caret-right"></i></a>
+                                    
+                                    <div class="dropdown-menu-1">
+                                      <ul><!-- ADICIONAR NOVAS FUNÇÕES A UM RPG AQUI COMO UM <LI> DENTRO DESSE <UL>-->
+                                        <li id = "nav3"><a  >Criar Ficha</a></li>
+                                        <li id = "nav3"><a  >Criar Batalha</a></li>
+                                        <li id = "nav3"><a  >Criar Batalha</a></li>
+                                        <div class="arrow-down"></div> <!-- TRIANGULO DA PARTE DE BAIXO DO PERGAMINHO QUE APARECE NO DROPDOWN MENU-->
+                                      </ul>
+                                    </div>
+                                  </li>
+                                  <div class="arrow-down"></div> 
+                                </ul>
+                              </div>
+                        </li>
+                        <li id = "nav1"><a>Contatos</a></li>
+                        <li id = "nav1"><a>Colaboradores</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+        </header> 
+    
+    </header>
+
+    <main>
+        <div class="container_cont">
+            <div class="container_pad">
+                <img src="ilustra1.png" class="img_ilustra">
+                <div class="conteudo_col" id = "primeiro">
+                    <p>ADMINISTRE SUAS BATALHAS DE MANEIRA GRATUITA</p>
+                    <p class="conteudo-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat neque quam repudiandae eius, eveniet soluta facilis laborum mollitia error officiis totam ipsa suscipit excepturi quis nobis nesciunt iste dignissimos?</p>
+                </div>
+            </div>
+
+            <div class="container_pad">
+                <img src="ilustra2.png"class="img_ilustra">
+                <div class="conteudo_col">
+                    <p>CRIE SUAS FICHAS DE MODO RÁPIDO E GRATUITO</p>
+                    <p class="conteudo-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat neque quam repudiandae eius, eveniet soluta facilis laborum mollitia error officiis totam ipsa suscipit excepturi quis nobis nesciunt iste dignissimos?</p>
+                </div>
+            </div>
+
+            <div class="container_pad">
+                <img src="ilustra3.png"class="img_ilustra">
+                <div class="conteudo_col">
+                    <p>DESCUBRA TODAS AS NOVIDADES PARA O FUTURO DA NOSSA COMUNIDADE</p>
+                    <p class="conteudo-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat neque quam repudiandae eius, eveniet soluta facilis laborum mollitia error officiis totam ipsa suscipit excepturi quis nobis nesciunt iste dignissimos?</p>
+                </div>
+            </div>
+            <div class="container_pad" id="ultimo">
+                <img src="ilustra4.png"class="img_ilustra">
+                <div class="conteudo_col">
+                    <p>TORNE-SE UM COLABORADOR NA NOSSA COMUNIDADE</p>
+                    <p class="conteudo-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat neque quam repudiandae eius, eveniet soluta facilis laborum mollitia error officiis totam ipsa suscipit excepturi quis nobis nesciunt iste dignissimos?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </main>
+    
+    <footer>
+        <div class="box-rodape">
+            <img src="QuemSomosNos.png" class="QuemSomos" width="200" height="60">
+            <img src="rodape2.png" class="DnDLogo" width="50" height="50">
+        </div>
+    </footer> 
+</html>
