@@ -1,2 +1,2 @@
 # Role-Iniciativa
-Um software colaborativo feito para facilitar a criação de personagens e a dinâmica de combate para campanhas de RPG de mesa. Nesse contexto, a atual aplicação traz a responsividade como o requisito não-funcional, visando uma boa experiência dos usuários em diversos dispositivos. Ao pensar nos requisitos funcionais, não tem forma melhor de elucidar as especificidades do projeto Role Iniciativa do que trazendo a tela principal, contando com as características operacionais da barra de navagação(requisito funcional), tornando essa visita online mais instrutiva sobre as coisas nas quais esse site oferece.   
+Um software colaborativo feito para facilitar a criação de personagens e a dinâmica de combate para campanhas de RPG de mesa
